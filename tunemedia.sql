@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS `tbl_users` (
+  `id` tinyint(4) NOT NULL AUTO_INCREMENT,
+  `username` varchar(25) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `url` varchar(100) NOT NULL,
+  `contact_name` varchar(50) NOT NULL,
+  `contact_email` varchar(50) NOT NULL,
+  `contact_phone` varchar(50) NOT NULL,
+  `payment_method` tinyint(4) NOT NULL,
+  `payment_paypal` varchar(50) NOT NULL,
+  `payment_bank_account_name` varchar(250) NOT NULL,
+  `payment_bank_account_no` varchar(50) NOT NULL,
+  `payment_bank_account_res_add` varchar(250) NOT NULL,
+  `payment_bank_swift_code` varchar(50) NOT NULL,
+  `remarks` text NOT NULL,
+  `type` tinyint(4) NOT NULL,
+  `status` tinyint(4) NOT NULL,
+  PRIMARY KEY (`id`)
+)
