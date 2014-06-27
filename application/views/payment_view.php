@@ -1,4 +1,5 @@
 <?php $this->load->view('tm_header'); ?>
+<!-- Some more comments -->
 <?php $user = $this->session->userdata('logged_in'); ?>
 <div id="wrapper">
 
