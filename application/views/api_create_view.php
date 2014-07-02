@@ -1,5 +1,5 @@
 <?php $this->load->view('tm_header'); ?>
-<!-- adding extra comments-->
+<!-- adding extra comments testing git-->
 <div id="wrapper">
 
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" style="margin-bottom: 0">            
